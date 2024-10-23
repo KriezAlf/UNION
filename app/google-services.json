@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452813049386",
+    "project_id": "union-9c619",
+    "storage_bucket": "union-9c619.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452813049386:android:cfb5cf5c54fdbc0a447d53",
+        "android_client_info": {
+          "package_name": "com.example.union"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0XDOUTEWmQVg4NB9jule1clsr722XTz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
