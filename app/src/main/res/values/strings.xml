@@ -4,4 +4,19 @@
     <string name="email">email</string>
     <string name="password">password</string>
     <string name="Register">Register</string>
+    <string name="NIM">NIM</string>
+    <string name="username">username</string>
+    <string name="click_to_login">click to login</string>
+    <string name="register_now">Register Now</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="sign_out">Log Out</string>
+    <string name="show_hide_password">Show/Hide Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="take_pic">Take Attendance Photo</string>
+    <string name="take_attendance">Take your attendance here!</string>
+    <string name="logo_desc">ulogin</string>
+    <string name="current_date_time"><![CDATA["Date & Time: "]]></string>
+    <string name="attendance_photo">Attendance Photo</string>
 </resources>
