@@ -19,4 +19,7 @@
     <string name="logo_desc">ulogin</string>
     <string name="current_date_time"><![CDATA["Date & Time: "]]></string>
     <string name="attendance_photo">Attendance Photo</string>
+    <string name="attendance_type">Attendance Type</string>
+    <string name="attendance_date">Attendance Date</string>
+    <string name="current_time">Time :</string>
 </resources>

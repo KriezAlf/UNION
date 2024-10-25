@@ -1,6 +1,7 @@
 package com.example.union
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -16,12 +17,10 @@ class MainActivity : AppCompatActivity() {
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView)
 
-        // Set default fragment (HomeFragment)
         if (savedInstanceState == null) {
-            replaceFragment(HomeFragment())
+            replaceFragment(AttendanceHistoryFragment())
         }
 
-        // Set up bottom navigation listener
         bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> {
@@ -32,16 +31,16 @@ class MainActivity : AppCompatActivity() {
                     replaceFragment(ProfileFragment())
                     true
                 }
-                R.id.nav_attendance -> {
+                R.id.nav_history -> {
                     replaceFragment(AttendanceHistoryFragment())
                     true
                 }
                 else -> false
             }
         }
+
     }
 
-    // Method to replace fragment
     private fun replaceFragment(fragment: Fragment) {
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragmentContainerView, fragment)

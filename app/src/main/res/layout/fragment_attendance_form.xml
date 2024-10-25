@@ -21,12 +21,22 @@
         android:layout_marginBottom="30dp"
         android:gravity="center" />
 
-    <!-- Display Date and Time -->
+    <!-- Display Date -->
     <TextView
         android:id="@+id/currentDateTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/current_date_time"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Display Time -->
+    <TextView
+        android:id="@+id/currentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_time"
         android:textSize="18sp"
         android:textColor="@android:color/darker_gray"
         android:layout_marginBottom="20dp" />

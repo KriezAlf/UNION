@@ -12,7 +12,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!-- Logo Image -->
         <ImageView
             android:id="@+id/imageViewLogo"
             android:layout_width="60dp"
@@ -23,15 +22,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"/>
 
-        <!-- Fragment container -->
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentContainerView"
             android:name="com.example.union.HomeFragment"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_home" />
 
-        <!-- Bottom Navigation -->
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
             android:layout_width="match_parent"
